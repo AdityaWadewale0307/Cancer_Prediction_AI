@@ -367,7 +367,7 @@ div[data-testid="stAlert"] span {
 
     /* Use almost the full phone width */
     .block-container {
-        padding-top: 1.5rem !important;
+        padding-top: 5rem !important;
         padding-left: 0.8rem !important;
         padding-right: 0.8rem !important;
         padding-bottom: 1.5rem !important;
