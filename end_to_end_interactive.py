@@ -150,9 +150,21 @@ div[data-baseweb="select"] > div:hover {
 ================================ */
 
 div[data-testid="stNumberInput"] input {
-    background: #ffffff;
+    background: #ffffff !important;
+    color: #102a43 !important;
+    -webkit-text-fill-color: #102a43 !important;
+    opacity: 1 !important;
+
     border: 1px solid #bcccdc;
     border-radius: 10px;
+    font-weight: 600 !important;
+}
+
+/* Fix number values on mobile devices */
+div[data-testid="stNumberInput"] input[type="number"] {
+    color: #102a43 !important;
+    -webkit-text-fill-color: #102a43 !important;
+    opacity: 1 !important;
 }
 
 
@@ -307,13 +319,25 @@ hr {
 
 
 /* ================================
-   WARNING
+   WARNING BOX TEXT
 ================================ */
 
-div[data-testid="stAlert"][data-baseweb] {
-    border-radius: 12px;
+div[data-testid="stAlert"] {
+    color: #102a43 !important;
 }
 
+div[data-testid="stAlert"] p {
+    color: #102a43 !important;
+    -webkit-text-fill-color: #102a43 !important;
+    font-weight: 600 !important;
+    opacity: 1 !important;
+}
+
+div[data-testid="stAlert"] span {
+    color: #102a43 !important;
+    -webkit-text-fill-color: #102a43 !important;
+    opacity: 1 !important;
+}
 
 /* ================================
    SCROLLBAR
