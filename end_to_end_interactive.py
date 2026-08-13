@@ -359,7 +359,91 @@ div[data-testid="stAlert"] span {
 ::-webkit-scrollbar-thumb:hover {
     background: #627d98;
 }
+/* =================================
+   MOBILE RESPONSIVE DESIGN
+   ================================= */
 
+@media (max-width: 768px) {
+
+    /* Use almost the full phone width */
+    .block-container {
+        padding-top: 1.5rem !important;
+        padding-left: 0.8rem !important;
+        padding-right: 0.8rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    /* Make the form wider */
+    div[data-testid="stForm"] {
+        padding: 18px !important;
+        border-radius: 18px !important;
+    }
+
+    /* Main title */
+    .main-title {
+        font-size: 36px !important;
+        line-height: 1.15 !important;
+    }
+
+    /* Subtitle */
+    .subtitle {
+        font-size: 16px !important;
+        line-height: 1.5 !important;
+    }
+
+    /* Section headings */
+    h2, h3 {
+        font-size: 30px !important;
+        line-height: 1.2 !important;
+    }
+
+    /* Input controls */
+    div[data-testid="stNumberInput"],
+    div[data-baseweb="select"] {
+        width: 100% !important;
+    }
+
+    /* Number input text */
+    div[data-testid="stNumberInput"] input {
+        font-size: 16px !important;
+        color: #102a43 !important;
+        -webkit-text-fill-color: #102a43 !important;
+        opacity: 1 !important;
+    }
+
+    /* Buttons */
+    div.stButton > button,
+    button[kind="primaryFormSubmit"] {
+        min-height: 50px !important;
+        font-size: 17px !important;
+    }
+
+    /* Metric cards */
+    [data-testid="stMetric"] {
+        padding: 16px !important;
+    }
+
+    /* Make tables fit the phone */
+    [data-testid="stDataFrame"] {
+        width: 100% !important;
+    }
+}
+/* =================================
+   MOBILE PROGRESS TEXT
+   ================================= */
+
+@media (max-width: 768px) {
+
+    div[data-testid="stProgress"] {
+        margin-top: 8px !important;
+    }
+
+    div[data-testid="stProgress"] p {
+        color: #102a43 !important;
+        font-weight: 600 !important;
+    }
+
+}
 </style>
 """, unsafe_allow_html=True)
 
