@@ -1,6 +1,11 @@
 # Cancer_Prediction_AI
 A machine-learning powered web application that predicts cancer classification using a trained **Random Forest Classifier**. The project provides an interactive **Streamlit** interface where users can enter patient and tumor-related information and receive a model prediction with probability information.
 
+## 🚀 Live Demo
+
+[👉 Try the Live Application](https://cancerpredictionai-jfobeen7fo7ddvxk8rwjg9.streamlit.app/)
+
+
 ## 📌 Project Overview
 
 **Cancer Prediction AI** is an end-to-end machine learning project that demonstrates how a trained classification model can be integrated into an interactive web application.
